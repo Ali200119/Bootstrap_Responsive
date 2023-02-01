@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 252px;
+}
+
+main .box {
+  width: 70% !important;
+}
+
+main .all-cards {
+  height: 470px;
+  border-radius: 30px;
+  border: 0;
+  width: 270px;
+  height: 100%;
+  transition: all 500ms;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main .all-cards:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main .all-cards img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 200px;
+}
+
+main .all-cards h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: black;
+}
+
+main .all-cards .text-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+main .all-cards .text-area p {
+  font-size: 15px;
+  color: gray;
+  opacity: 0.6;
+  text-align: center;
+  width: 272px;
+}
+
+main .all-cards ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-top: 15px;
+}
+
+main .all-cards ul li i {
+  font-size: 28px;
+  color: black;
+  cursor: pointer;
+}
+
+/* Card1 rating start */
+
+main .card1 ul li:first-child i {
+  color: gold;
+}
+
+main .card1 ul li:nth-child(2) i {
+  color: gold;
+}
+
+main .card1 ul li:nth-child(3) i {
+  color: gold;
+}
+
+main .card1 ul li:nth-child(4) i {
+  color: gold;
+}
+
+/* Card1 rating end */
+
+/* Card2 rating start */
+
+main .card2 ul li:first-child i {
+  color: gold;
+}
+
+main .card2 ul li:nth-child(2) i {
+  color: gold;
+}
+
+main .card2 ul li:nth-child(3) i {
+  color: gold;
+}
+
+/* Card2 rating end */
+
+/* Card3 rating start */
+
+main .card3 ul li:first-child i {
+  color: gold;
+}
+
+main .card3 ul li:nth-child(2) i {
+  color: gold;
+}
+
+main .card3 ul li:nth-child(3) i {
+  color: gold;
+}
+
+main .card3 ul li:nth-child(4) i {
+  color: gold;
+}
+
+/* Card3 rating end */
+
+/* Card4 rating start */
+
+main .card4 ul li i {
+    color: gold;
+}
+
+/* Card4 rating end */
+
+main .all-cards a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  height: 65px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+main .card1 a {
+  background-color: #e5771d;
+}
+
+main .card2 a {
+  background-color: black;
+}
+
+main .card3 a {
+  background-color: #b97c4e;
+}
+
+main .card4 a {
+  background: linear-gradient(to right, red, magenta, wheat, blue);
+}
