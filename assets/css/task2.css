@@ -19,7 +19,9 @@ main {
   align-items: center;
 }
 main .box {
-  width: 80% !important;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 main .box .card {
   width: 87%;
@@ -85,6 +87,12 @@ main .box .card .content .social ul li:nth-child(3) a {
 }
 main .box .card .content .social ul li:last-child a {
   background-color: #e85b89;
+}
+@media only screen and (max-width: 991px) {
+  main .box {
+    display: block;
+    justify-content: unset;
+  }
 }
 
 @media only screen and (max-width: 991px) {
