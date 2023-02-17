@@ -19,7 +19,7 @@ main {
   align-items: center;
 }
 main .box {
-  width: 80%;
+  width: 80% !important;
 }
 main .box .card {
   width: 87%;
@@ -85,4 +85,10 @@ main .box .card .content .social ul li:nth-child(3) a {
 }
 main .box .card .content .social ul li:last-child a {
   background-color: #e85b89;
+}
+
+@media only screen and (max-width: 991px) {
+  main {
+    height: unset;
+  }
 }/*# sourceMappingURL=task2.css.map */
