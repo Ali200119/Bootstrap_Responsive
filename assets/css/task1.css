@@ -13,7 +13,6 @@ main .box {
 }
 
 main .all-cards {
-  height: 470px;
   border-radius: 30px;
   border: 0;
   width: 270px;
@@ -127,7 +126,7 @@ main .card3 ul li:nth-child(4) i {
 /* Card4 rating start */
 
 main .card4 ul li i {
-    color: gold;
+  color: gold;
 }
 
 /* Card4 rating end */

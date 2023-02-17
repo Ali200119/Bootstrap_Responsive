@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    background-color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+    .box {
+        width: 80%;
+
+        .card {
+            width: 87%;
+            height: 600px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+            .content {
+                margin-top: 20px;
+                text-align: center;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                h5 {
+                    margin-top: 5px;
+                    color: #e85b89;
+                }
+
+                p {
+                    margin-top: 5px;
+                }
+
+                .social {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 50px;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style: none;
+                        width: 60%;
+
+                        li {
+                            a {
+                                text-decoration: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: white;
+                                width: 45px;
+                                height: 45px;
+                                border-radius: 50%;
+                                transition-duration: 0.2s;
+
+                                &:hover {
+                                    transform: translateY(-5px) rotate(360deg);
+                                }
+                            }
+
+                            &:first-child a {
+                                background-color: #405899;
+                            }
+
+                            &:nth-child(2) a {
+                                background-color: #e60306;
+                            }
+
+                            &:nth-child(3) a {
+                                background-color: #1077b6;
+                            }
+
+                            &:last-child a {
+                                background-color: #e85b89;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
